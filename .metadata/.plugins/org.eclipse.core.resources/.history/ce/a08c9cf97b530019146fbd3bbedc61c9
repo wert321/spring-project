@@ -1,0 +1,28 @@
+package com.board.domain;
+
+import java.util.Date;
+
+public class BoardVO {
+	private int bno;
+	private String subject;
+	private String content;
+	private String writer;
+	private Date reg_date;
+	private int hit;
+	
+	public int getBno() {
+		return bno;
+	}
+	
+	public void setBno(int bno) {
+		this.bno = bno;
+	}
+	
+	public String getSubject() {
+		return subject;
+	}
+	
+	public String setSubject(String subject) {
+		this.subject = subject;
+	}
+}

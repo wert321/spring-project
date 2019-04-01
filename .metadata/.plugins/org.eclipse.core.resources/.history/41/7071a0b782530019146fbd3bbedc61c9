@@ -1,0 +1,8 @@
+package com.board.mapper;
+
+import org.apache.ibatis.annotations.Param;
+import com.board.domain.BoardVO;
+
+public class BoardMapper {
+	public void boardInsert(BoardVO board) throws Exception;
+}
